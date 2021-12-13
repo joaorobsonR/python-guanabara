@@ -1,0 +1,10 @@
+nome = str(input('digite seu nome inteiro ')).strip()
+print(nome)
+print(nome.upper())
+print(nome.lower())
+nome2 = len(nome)
+espaco = nome.count(' ')
+novo = nome2 - espaco
+print('a quantidade de letras sem espaço é ', novo)
+divi = nome.split()
+print(f'seu primeiro nome é {divi[0]}, tem {len(divi[0])} letras')

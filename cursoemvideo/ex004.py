@@ -1,0 +1,10 @@
+#desecando uma variavel
+n = input('digite algo: ')
+print('é numero: ', n.isnumeric())
+print('é alfabetico: ', n.isalpha())
+print('é decimal: ', n.isdecimal())
+print('é alfanumerico: ', n.isalnum())
+print('é espaço: ', n.isspace())
+print('é maiuscula: ', n.isupper())
+print('é minuscula: ', n.islower())
+print('está capitalizada:', n.istitle())
