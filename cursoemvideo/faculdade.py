@@ -1,7 +1,5 @@
 n = int(input('Quantas temperaturas serão lidas? '))
-s = 0
-cont = 0
-c = 0
+s = c = cont = 0
 while cont < n:
     if n > 0:
         t = int(input('Digite a temperatura: '))
